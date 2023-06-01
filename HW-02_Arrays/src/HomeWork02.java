@@ -18,8 +18,7 @@ public static int[] insertNumberSorted(int[] arraySorted, int number) {
 		index = - (numPosition +1);
 	} else 
 		index = numPosition;
-	
-	
+		
 	int [] res = new int[arraySorted.length + 1];
 	System.arraycopy(arraySorted, 0, res, 0, index);
 	res[index] = number;
